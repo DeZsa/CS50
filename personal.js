@@ -54,12 +54,10 @@ document.addEventListener("DOMContentLoaded", function() {
 			}
 		}
 
-		if (event.data.domain) {
 			var favicon = document.createElement('link');
 			favicon.setAttribute('rel', 'shortcut icon');
 			favicon.setAttribute('href', 'https://kartrausers.s3.amazonaws.com/DSmith/102649_1516729053640favicon.ico');
 			head.appendChild(favicon);
-		}
 
 	}, false);
 
